@@ -78,6 +78,20 @@ def get_apartments(page):
         if bathrooms:
             bathrooms = bathrooms.text
         
+        # Price
+        price_div = apartment.find('div', attrs={'data-cy':'rp-cardProperty-price-txt'})
+        price = price_div.find('p', attrs={'class':'l-text l-u-color-neutral-28 l-text--variant-heading-small l-text--weight-bold undefined'})
+        if price:
+            price = price.text
+            price = price.replace('R$ ', '')
+            price = price.replace('.', '')
+            print(price)
+        
+        # URL
+        url = apartment.find('a', attrs={'itemprop':'url'})
+        if url:
+            url = url.get('href')
+        
         # Dictionary of data
         apartment_data = {
             'neighborhood': neighborhood,
@@ -87,7 +101,9 @@ def get_apartments(page):
             'area': area,
             'rooms': rooms,
             'parking': parking,
-            'bathrooms': bathrooms
+            'bathrooms': bathrooms,
+            'price': price,
+            'url': url
         }
         
         apartments_data.append(apartment_data)
