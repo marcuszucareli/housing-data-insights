@@ -151,6 +151,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 # Author
 
-This project is maintained by [Marcus Zucareli](https://github.com/yourusername).
+This project is maintained by [Marcus Zucareli](https://github.com/marcuszucareli).
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/marcus-zucareli/)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/marcus-zucareli/?locale=en_US)
