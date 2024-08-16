@@ -142,3 +142,15 @@ In a small, student-like model, this mistake might be insignificant, but in a la
 - Our variables can be used to generate another variables that might be useful for a machine learning model.
 - Scikit-learn is a strong tool that avoids a lot of extra work.
 - Understand the conepts of PCA before just applying it helps you understand their outputs much better.
+
+# Requirements
+The requirements for running this project are in the file [requirements.txt](./requirements.txt)
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Author
+
+This project is maintained by [Marcus Zucareli](https://github.com/yourusername).
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/marcus-zucareli/)

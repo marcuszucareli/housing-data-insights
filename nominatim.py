@@ -88,5 +88,3 @@ def coordinates_dataframe(dataframe):
 
     # Save df
     final_df.to_csv('apartments_data.csv')
-
-df = pd.read_csv('apartments_data_scraped.csv')
